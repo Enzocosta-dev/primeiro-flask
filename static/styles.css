@@ -1,0 +1,35 @@
+/* 1. Estilo Básico de Fundo e Texto */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    font-family: Arial, sans-serif; /* Fonte */
+    color: #333; /* Cor do texto */
+}
+
+/* 2. Estilizando Títulos (Seletor de Elemento) */
+h1 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 3. Estilizando uma Classe (Seletor de Classe) */
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px; /* Cantos arredondados */
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* 4. Estilizando ID (Seletor de ID) */
+#cabecalho {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* 5. Efeito Hover (Pseudo-classe) */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
